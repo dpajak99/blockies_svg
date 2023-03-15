@@ -34,7 +34,7 @@ class Blockies {
     imageData = createImageData();
   }
 
-  String toSvg(int size) {
+  String toSvg({required int size}) {
     double scale = size / blockieSize;
 
     final SvgWriter writer = SvgWriter(size.abs());
@@ -56,7 +56,7 @@ class Blockies {
 
     renderer.finish();
     String svg = writer.convertToString();
-    log(svg);
+
     return svg;
   }
 
