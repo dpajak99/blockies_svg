@@ -1,11 +1,9 @@
-import 'dart:developer';
-
 import 'package:blockies_svg/src/utils/color_utils.dart';
 import 'package:blockies_svg/src/utils/svg/graphics.dart';
 import 'package:blockies_svg/src/utils/svg/svg_renderer.dart';
 import 'package:blockies_svg/src/utils/svg/svg_writer.dart';
 import 'package:fixnum/fixnum.dart';
-import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 
 class Blockies {
   @visibleForTesting
